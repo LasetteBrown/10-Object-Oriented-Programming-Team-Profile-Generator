@@ -1,0 +1,28 @@
+header {
+    background-color: indianred;
+    color: seashell;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+.card {
+    margin: 10%;
+    float: left;
+    border: solid;
+    box-shadow: 5px 5px #888888;
+}
+
+.card-body {
+    background-color: darkcyan;
+    color: cornsilk;
+    text-align: left;
+    padding: 10px;
+
+}
+
+.list-group {
+    margin: 10px;
+    padding: 2px;
+    border: solid;
+}
