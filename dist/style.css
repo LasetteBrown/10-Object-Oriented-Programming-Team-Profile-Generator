@@ -7,10 +7,11 @@ header {
 }
 
 .card {
-    margin: 10%;
+    margin: 10px;
     float: left;
     border: solid;
     box-shadow: 5px 5px #888888;
+    height: 500px;
 }
 
 .card-body {

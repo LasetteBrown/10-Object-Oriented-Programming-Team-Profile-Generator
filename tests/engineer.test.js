@@ -4,18 +4,27 @@ const Engineer = require("../lib/engineer");
 
 describe("Employee class", () => {
     describe("Initialization", () => {
-        it("should return an object containing a 'name' property when called with the 'new' keyword", () => {
+        it("should return an object containing a 'github' property when called with the 'new' keyword", () => {
             const person = new Engineer();
 
-            expect("name" in person).toEqual(true);
+            expect("github" in person).toEqual(true);
         });
 
-        it("should set 'name' when created", () => {
-            const name = 'Sam';
+        it("should return engineer when the getRole function is called", () => {
 
-            const person = new Engineer(name);
+            const person = new Engineer();
 
-            expect(person.name).toEqual('Sam');
+            expect(person.getRole()).toEqual("Engineer");
         });
+
+        it("should return the website for the github user when the getGithub function is called", () => {
+
+            const githubAddress = `https://github.com/LasetteBrown`
+
+            const person = new Engineer("Lasette", 3, "lasette@gmail.com", "LasetteBrown");
+
+            expect(person.getGithub()).toEqual(githubAddress);
+        });
+
     })
 })

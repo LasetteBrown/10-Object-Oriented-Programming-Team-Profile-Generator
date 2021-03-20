@@ -16,6 +16,38 @@ describe("Employee class", () => {
             expect(person.name).toEqual('Sam');
         });
 
+        it("should return the name of the employee when the getName function is called", () => {
+            const name = "Sam"
+
+            const person = new Employee(name, 12, "Sam@gmail.com");
+
+            expect(person.getName()).toEqual("Sam")
+        });
+
+        it("Should return the id when the getId function is called", () => {
+            const id = 219
+
+            const person = new Employee("Sam", id, "Sam@gmail.com");
+
+            expect(person.getId()).toEqual(219)
+        });
+
+        it("Should return the email when the getEmail function is called", () => {
+            const email = "sam@mail.com"
+
+            const person = new Employee("Sam", 1, email);
+
+            expect(person.getEmail()).toEqual("sam@mail.com")
+        });
+
+        it("Should return the role when the getRole function is called", () => {
+            const role = "employee"
+
+            const person = new Employee("Sam", 1, "sam@mail.com");
+
+            expect(person.getRole()).toEqual("employee")
+        });
+
     })
 })
 // WHEN I click on an email address in the HTML
