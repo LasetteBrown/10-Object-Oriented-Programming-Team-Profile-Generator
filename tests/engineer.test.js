@@ -4,12 +4,6 @@ const Engineer = require("../lib/engineer");
 
 describe("Employee class", () => {
     describe("Initialization", () => {
-        it("should return an object containing a 'github' property when called with the 'new' keyword", () => {
-            const person = new Engineer();
-
-            expect("github" in person).toEqual(true);
-        });
-
         it("should return engineer when the getRole function is called", () => {
 
             const person = new Engineer();
