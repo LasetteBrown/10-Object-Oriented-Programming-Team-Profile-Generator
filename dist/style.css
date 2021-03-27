@@ -1,5 +1,5 @@
 header {
-    background-color: indianred;
+    background-color: rgb(224, 73, 73);
     color: seashell;
     text-align: center;
     padding-top: 25px;
@@ -11,11 +11,11 @@ header {
     float: left;
     border: solid;
     box-shadow: 5px 5px #888888;
-    height: 500px;
+
 }
 
 .card-body {
-    background-color: darkcyan;
+    background-color: rgb(20, 139, 236);
     color: cornsilk;
     text-align: left;
     padding: 10px;

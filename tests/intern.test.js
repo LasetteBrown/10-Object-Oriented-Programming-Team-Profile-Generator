@@ -4,6 +4,12 @@ const Intern = require("../lib/intern");
 
 describe("Employee class", () => {
     describe("Initialization", () => {
+        it("should return an object containing a 'school' property when called with the 'new' keyword", () => {
+            const person = new Intern();
+
+            expect("school" in person).toEqual(true);
+        });
+
         it("should return intern when the getRole function is called", () => {
 
             const person = new Intern();
