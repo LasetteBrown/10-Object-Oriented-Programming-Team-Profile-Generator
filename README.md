@@ -10,7 +10,7 @@ node index.js
 
 is run. Questions about the team appear one at a time and each answer is used to add information to the html file. Once the user has input all information about their team the html file is generated iside the dist folder. When opened in the browser the file displays each team member with their role, employee ID number and email, and some basic information about them based on their role. The team manager will include their office number. All Engineers will include their github user name, and all interns will include their school.
 
-To see a demonstration of the application you can watch this video: ![Demonstration video.](https://drive.google.com/file/d/1dZz8AamPHKvtyOIy9SrCImZEataxEAd3/view)
+To see a demonstration of the application you can watch this video: ![Demonstration video](http://drive.google.com/file/d/1dZz8AamPHKvtyOIy9SrCImZEataxEAd3/view)
 
         
 ## Table of Contents
